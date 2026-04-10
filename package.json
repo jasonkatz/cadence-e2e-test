@@ -1,1 +1,9 @@
-{ "name": "hello-test", "scripts": { "start": "echo hello" } }
+{
+  "name": "hello-test",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
