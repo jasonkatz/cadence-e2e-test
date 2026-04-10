@@ -1,1 +1,10 @@
-{ "name": "hello-test", "scripts": { "start": "echo hello" } }
+{
+  "name": "hello-test",
+  "scripts": {
+    "start": "echo hello",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
